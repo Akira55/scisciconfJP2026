@@ -17,12 +17,12 @@ livereload: true
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Science of science研究会 2024"
+title                    : "Science of science研究会"
 title_separator          : "-"
-name                     : "ScisciConfJP"
-description              : "Science of science研究会 2024 公式webサイト"
+name                     : "ScisciConf"
+description              : "Science of science研究会 公式webサイト"
 url                      : "https://sciscijp.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/scisciconfJP2024" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/scisciconf" # the subpath of your site, e.g. "/blog"
 repository               : #"naacl-org/naacl-2021-website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logos/logo_scisci_arial.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "Science of science研究会 2024"
+    shortname            : "ScisciConf"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -57,9 +57,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : Science of science研究会 2024
+  username               : Science of science研究会
 facebook:
-  username               : Science of science研究会 2024
+  username               : Science of science研究会
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -110,7 +110,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/ScisciJP/scisciconfJP2024.git
+      url: https://github.com/ScisciJP/homepage.git
 
 
 # Reading Files

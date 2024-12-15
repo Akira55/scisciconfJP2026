@@ -1,24 +1,28 @@
-# Science of science研究会 2024 オフィシャルウェブサイト
+# Science of science研究会 オフィシャルウェブサイト
 
 本リポジトリは、第1回Science of science研究会の公式ウェブサイト用リポジトリです。
 本コードは、[ACL 2023](https://github.com/acl-org/acl-2023)からフォークしておりますので、編集の詳細につきましてはフォーク元のREADMEをご覧ください。
 
-- Webpage: https://sciscijp.github.io/scisciconfJP2024/
+- Webpage: https://sciscijp.github.io/home/
 
 ## How to contribute
 
 ### 1. Clone
 
 ```
-git clone git@github.com:ScisciJP/scisciconfJP2024.git
+git clone git@github.com:ScisciJP/homepage.git
 ```
 
-### 2. Build with docker
-
+### 2. Build with Jekyll
 ```
-cd scisciconfJP2024
-docker build -t scisciconfjp2024/website .
-docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll scisciconfjp2024/website
+sudo bundle install.
+```
+Note: This step might fail when installing the `nokogiri` gem. If this happens, run `bundle config build.nokogiri --use-system-libraries` and then `run bundle install` again.
+
+
+Start the jekyll server by running 
+```
+bundle exec jekyll serve
 ```
 
 -> http://0.0.0.0:4000/scisciconfJP2024/ からアクセスできます。
@@ -43,4 +47,4 @@ git push origin <branch_name>
 
 Contact: [sciscijp@googlegroups.com](mailto:sciscijp@googlegroups.com)
 
-* 三浦 崇寛(東京大学)
+* 三浦 千哲(東京大学)

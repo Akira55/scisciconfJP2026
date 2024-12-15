@@ -1,7 +1,7 @@
 ---
 title: チュートリアル
 layout: single
-permalink: /program/tutorials/
+permalink: /tutorials/
 sidebar: 
     nav: program
 # toc: true
