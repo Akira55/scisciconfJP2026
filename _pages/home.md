@@ -7,6 +7,11 @@ header:
   caption: 'Photo @ iStock'
 ---
 
+<div style="background-color:#4CAF50; color:white; padding:15px; text-align:center; border-radius:5px;">
+  第3回Science of Science研究会の開催が決定しました。
+参加申し込み等は <a href="https://2025.scisci.jp/">こちら</a>から
+</div>
+
 
 ## Science of science研究会
 <!-- The Science of Science Research Association was established by a group of volunteer researchers in response to the growing attention in this field, with the aim of creating an outstanding research community among researchers involved in Science of Science in Asian countries, including Japan.

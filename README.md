@@ -32,6 +32,9 @@ bundle exec jekyll serve
 branchを切ってから、編集してください。
 編集する回数の多い箇所は、フォーク元の[こちら](https://github.com/acl-org/acl-2023?tab=readme-ov-file#important-files)に記載があります。
 
+Header: _data/navigation.yml
+Body: _pages/*.md
+
 ### 4. Push to repository
 
 ```
