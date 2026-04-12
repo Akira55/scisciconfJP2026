@@ -1,16 +1,15 @@
-# Science of science研究会 オフィシャルウェブサイト
+# 第4回Science of science研究会(2026年) オフィシャルウェブサイト
 
-本リポジトリは、第1回Science of science研究会の公式ウェブサイト用リポジトリです。
-本コードは、[ACL 2023](https://github.com/acl-org/acl-2023)からフォークしておりますので、編集の詳細につきましてはフォーク元のREADMEをご覧ください。
+本リポジトリは、第4回Science of science研究会の公式ウェブサイト用リポジトリです。
 
-- Webpage: https://sciscijp.github.io/homepage/
+- Webpage: https://sciscijp.github.io/scisciconfJP2026
 
 ## How to contribute
 
 ### 1. Clone
 
 ```
-git clone git@github.com:ScisciJP/homepage.git
+git clone git@github.com:ScisciJP/scisciconfJP2026.git
 ```
 
 ### 2. Build with Jekyll
