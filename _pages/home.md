@@ -35,7 +35,7 @@ header:
 .overview-list { list-style:none; padding:0; margin:0; }
 .overview-list li { padding:8px 0; border-bottom:1px solid #f0f0f0; }
 .overview-list li:last-child { border-bottom:none; }
-.overview-list .label { display:inline-block; width:80px; color:#2e7d32; font-weight:bold; }
+.overview-list .label { display:inline-block; width:130px; padding-right:10px; box-sizing:border-box; color:#2e7d32; font-weight:bold; vertical-align:top; white-space:nowrap; }
 </style>
 
 <div class="hero-notice">
@@ -72,6 +72,7 @@ header:
     <li><span class="label">形式</span>現地開催（聴講のみオンライン配信予定）</li>
     <li><span class="label">主催</span>SciSci研究会</li>
     <li><span class="label">共催</span>神戸大学計算社会科学研究センター</li>
+    <li><span class="label">オーガナイザー</span>松井 暉（神戸大学計算社会科学研究センター）</li>
   </ul>
   <p style="margin:16px 0 0; color:#666; font-size:0.92em;">
     ※ 発表募集・参加登録は締め切りました（発表申込：2026年6月7日／参加登録：2026年6月28日）。当日の詳細はプログラムをご確認ください。
