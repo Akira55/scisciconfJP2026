@@ -7,6 +7,13 @@
 .tmp-disable{
 color:#CCCCCC
 }
+.masthead__menu-item .lang-switch{
+  border:1px solid #4CAF50; border-radius:14px; padding:4px 14px !important;
+  color:#2e7d32 !important; font-weight:bold; font-size:0.85em; line-height:1;
+}
+.masthead__menu-item .lang-switch:hover{
+  background:#4CAF50; color:#fff !important;
+}
 </style>
 
 <div class="masthead">
@@ -35,6 +42,18 @@ color:#CCCCCC
               </li>
             {%- endif -%}
           {%- endfor -%}
+          {%- comment -%} 言語切替タブ（page.lang / page.lang_switch で制御） {%- endcomment -%}
+          {%- assign cur_lang = page.lang | default: 'ja' -%}
+          {%- if cur_lang == 'en' -%}
+            {%- assign lang_switch_url = page.lang_switch | default: '/' -%}
+            {%- assign lang_switch_label = '日本語' -%}
+          {%- else -%}
+            {%- assign lang_switch_url = page.lang_switch | default: '/en/' -%}
+            {%- assign lang_switch_label = 'English' -%}
+          {%- endif -%}
+          <li class="masthead__menu-item">
+            <a class="lang-switch" href="{{ lang_switch_url | relative_url }}">🌐 {{ lang_switch_label }}</a>
+          </li>
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
