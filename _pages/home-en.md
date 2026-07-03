@@ -70,8 +70,9 @@ header:
     <li><span class="label">Venue</span>Kobe University Centennial Hall (Shindai Kaikan)</li>
     <li><span class="label">Fee</span>Free</li>
     <li><span class="label">Format</span>On-site (audience-only online streaming planned)</li>
-    <li><span class="label">Organizer</span>SciSci Meeting</li>
-    <li><span class="label">Co-organizer</span>Center for Computational Social Science, Kobe University</li>
+    <li><span class="label">Hosted by</span>SciSci Meeting</li>
+    <li><span class="label">Co-hosted by</span>Center for Computational Social Science, Kobe University</li>
+    <li><span class="label">Organizer</span>Akira Matsui (Center for Computational Social Science, Kobe University)</li>
   </ul>
   <p style="margin:16px 0 0; color:#666; font-size:0.92em;">
     * The call for presentations and participant registration are now closed (presentation submissions: June 7, 2026 / registration: June 28, 2026). Please see the program for details (the program is available in Japanese).
