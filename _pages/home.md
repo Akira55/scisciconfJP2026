@@ -33,9 +33,9 @@ header:
 .info-card h2 { margin-top:0; color:#2e7d32; border-bottom:2px solid #4CAF50; padding-bottom:8px; }
 
 .overview-list { list-style:none; padding:0; margin:0; }
-.overview-list li { padding:8px 0; border-bottom:1px solid #f0f0f0; }
+.overview-list li { display:flex; gap:16px; padding:8px 0; border-bottom:1px solid #f0f0f0; }
 .overview-list li:last-child { border-bottom:none; }
-.overview-list .label { display:inline-block; width:130px; padding-right:10px; box-sizing:border-box; color:#2e7d32; font-weight:bold; vertical-align:top; white-space:nowrap; }
+.overview-list .label { flex:0 0 8.5em; color:#2e7d32; font-weight:bold; white-space:nowrap; }
 </style>
 
 <div class="hero-notice">
