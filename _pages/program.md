@@ -155,7 +155,7 @@ table.prog-table .idg-cell { font-weight:bold; color:#26a69a; white-space:nowrap
   <div class="prog-body">
     <div class="prog-title"><span class="badge badge-invited">招待講演①</span></div>
     <div class="talk-card">
-      <div class="speaker">久壽米木 圭吾 氏（Cornell University）</div>
+      <div class="speaker">久壽米木 啓悟 氏（Cornell University）</div>
       <div class="talk-title">Scientific production in the era of large language models</div>
       <span class="lbl">要旨</span>
       <div class="talk-abstract">本講演では、3つの主要なプレプリントサーバーに2018年1月から2024年6月までに投稿された約210万件の論文を分析し、大規模言語モデル（LLM）の利用が、論文産出の増加、非英語話者の参入障壁の低下、参照される先行研究の多様化と関連していることを示します。その一方で、文章の複雑さといった従来の科学的質のシグナルが、もはや研究の価値を測る指標としては信頼できなくなりつつある点についても議論します。</div>
